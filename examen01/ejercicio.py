@@ -100,7 +100,7 @@ def ejercicioYG04():
 
 nuemero: float
 pregunta: float
-preguna=float(input("¿que ejercicio desea combrobar? 1,2,3,4 "))
+pregunta=float(input("¿que ejercicio desea combrobar? 1,2,3,4 "))
 if pregunta<=1:
     ejercicioYG01()
 elif pregunta<=2:
@@ -109,4 +109,4 @@ elif pregunta<=3:
     ejercicioYG03()
 elif pregunta<=4:
     ejercicioYG04()
-print(f"")
+
