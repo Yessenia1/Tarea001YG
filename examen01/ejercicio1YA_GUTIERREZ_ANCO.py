@@ -1,3 +1,10 @@
+#1.- Diseñe un algoritmo que permita determinar el nivel del perfil de ingreso de un postulante con la que obtiene una vacante a la carrera de ingeniería de Sistemas; considerando que, si su nota es mayor
+#o igual a 17 su nivel es 4, si la nota es menor de 17 y mayor o igual a 14 su nivel es 3, si su nota es menor a 14 y mayor o igual a 11 su nivel es 2; mientras que si su nota es menor de 11 ya no puede
+#obtener la vacante y por ende también está en el nivel 1.
+#Considera que la nota final es vigesimal según el siguiente ponderado:
+#Examen de conocimiento 40%
+#Entrevista Personal 35%
+#Test Psicológico 25%
 examen: float
 entrevista: float
 test: float

@@ -1,3 +1,6 @@
+#5.-Realice un algoritmo que permita probar uno de los 3 algoritmos que ha diseñado anteriormente
+#aplicando una estructura condicional múltiple o algo similar, y las estructuras de control que se
+#requieran para tal fin.
 def ejercicioYG01():
     examen: float
     entrevista: float
