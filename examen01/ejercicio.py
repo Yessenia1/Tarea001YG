@@ -60,39 +60,38 @@ def ejercicioYG03():
     a: float
     b: float
     c: float
-    pregunta: float
+    pregunta: str
     a=float(input("introduzca un numero: "))
     b=float(input("introduzca otro número: "))
-    pregunta=float(input("Introduzca la operación matematica (+)=1,(-)=2,(*)=3,(/)=4" +
-    "n\(^ potencia)=5,(R raiz cuadrada)=6,(% modulo de dos)=7 n\/favor de poner como respuesta solo el numero porque todavia nose como se igual sin numeros ;(/ : "))
-    if pregunta<=1:
+    pregunta=str(input("Introduzca la operación matematica +,-,*,/, ^ (potencia), R (raiz cuadrada),% modulo de dos) : "))
+    if pregunta=="+":
         c=a+b
-    elif pregunta<=2:
+    elif pregunta=="-":
         c=a-b
-    elif pregunta<=3:
+    elif pregunta=="*":
         c=a*b
-    elif pregunta<=4:
+    elif pregunta=="/":
         c=a/b
-    elif pregunta<=5:
+    elif pregunta=="^":
         c=pow(a,b)
-    elif pregunta<=6:
+    elif pregunta=="R":
         c=math.sqrt(a)
-    elif pregunta<=7:
-        c=a%b
+    elif pregunta=="%":
+        c=a%2
     print(f"el resultado de la operación es {c}")
 
 def ejercicioYG04():
     edad: int
-    genero: int
+    genero: str
     vacuna: str
     edad=int(input("¿cuantos años tiene?"))
-    genero=int(input("usted es hombre=1 o mujer=2 /porfavor introduzca el numerito/ : "))
+    genero=str(input("usted es hombre o mujer : "))
     if edad>70:
         vacuna=(f"La vacuna que le toca es el tipo C")
     elif edad>16 and edad<=59:
-        if genero<=1:
+        if genero=="hombre":
             vacuna=(f"la vacuna que le toca es el tipo B")
-        elif genero<=2:
+        elif genero=="mujer":
             vacuna=(f"la vacuna que le toca es el tipo A")
     elif edad<16:
         vacuna=(f"la vacuna que le toca es el tipo A")

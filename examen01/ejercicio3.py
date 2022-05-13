@@ -2,23 +2,22 @@ import math
 a: float
 b: float
 c: float
-pregunta: float
+pregunta: str
 a=float(input("introduzca un numero: "))
 b=float(input("introduzca otro número: "))
-pregunta=float(input("Introduzca la operación matematica (+)=1,(-)=2,(*)=3,(/)=4" +
-"n\(^ potencia)=5,(R raiz cuadrada)=6,(% modulo de dos)=7 n\/favor de poner como respuesta solo el numero porque todavia nose como se igual sin numeros ;(/ : "))
-if pregunta<=1:
+pregunta=str(input("Introduzca la operación matematica +,-,*,/, ^ (potencia), R (raiz cuadrada),% modulo de dos) : "))
+if pregunta=="+":
     c=a+b
-elif pregunta<=2:
+elif pregunta=="-":
     c=a-b
-elif pregunta<=3:
+elif pregunta=="*":
     c=a*b
-elif pregunta<=4:
+elif pregunta=="/":
     c=a/b
-elif pregunta<=5:
+elif pregunta=="^":
     c=pow(a,b)
-elif pregunta<=6:
+elif pregunta=="R":
     c=math.sqrt(a)
-elif pregunta<=7:
-    c=a%b
+elif pregunta=="%":
+    c=a%2
 print(f"el resultado de la operación es {c}")
