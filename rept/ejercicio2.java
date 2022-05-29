@@ -6,7 +6,7 @@ public class ejercicio2{
     La empresa acepta tarjetas de crédito con un cargo de 5 % sobre la compra. 
     Suponiendo que los clientes adquieren N hamburguesas, las cuales pueden ser de diferente tipo, realice un algoritmo para determinar cuánto deben pagar. */
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner lt = new Scanner(System.in);
         int  a;
         double resu;
         String tipo;

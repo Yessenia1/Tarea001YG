@@ -1,16 +1,15 @@
-
-
 package repetitivas;
 import java.util.Scanner;
 
 
     public class ejercicio1{
+      static Scanner lt = new Scanner(System.in);
         /*4.2.	Bembos ofrece hamburguesas sencillas (S), dobles (D) y triples (T), las cuales tienen un costo de S/ 10, S/ 12 y S/ 14 respectivamente. 
         La empresa acepta tarjetas de crédito con un cargo de 5 % sobre la compra. 
         Suponiendo que los clientes adquieren N hamburguesas, las cuales pueden ser de diferente tipo, realice un algoritmo para determinar cuánto deben pagar. */
         public static void main(String[] args) {
-             Scanner lt = new Scanner(System.in);
             int  a;
+            int x;
             double resu;
             String tipo;
             String S= "";
@@ -18,8 +17,11 @@ import java.util.Scanner;
             String T= "";
             String tg= "";
             double resu1;
-            System.out.println("que tipos de hamgurguesas deseas, Bembos ofrece hamburguesas sencillas (S), dobles (D) y triples (T): ");
-            tipo = lt.next(); 
+            System.out.print("Cuantas hamburguesas desea comprar: ");
+            x=lt.nextInt();
+            for(int i=1; i<=x; i++){
+              System.out.println("que tipos de hamgurguesas deseas, Bembos ofrece hamburguesas sencillas (S), dobles (D) y triples (T): ");
+            tipo=lt.nextLine();
             if("S".equals(tipo)){
                 System.out.println("cuantas hamburguesas deseas: ");
                 a = lt.nextInt();
@@ -28,7 +30,7 @@ import java.util.Scanner;
                 tg = lt.next();
               if("si".equals(tg)){
                   resu1=resu-(resu*0.5);
-                  System.out.print("el costo con tu tarjeta de credito es de :_"+ resu1);
+                  System.out.println("el costo con tu tarjeta de credito es de :_"+ resu1);
               } else if("no".equals(tg)){
                 resu1 = resu;  
                 System.out.println("el costo de sus hamburguesas es :"+ resu1);
@@ -64,7 +66,8 @@ import java.util.Scanner;
                 System.out.println("el costo de sus hamburguesas es :"+ resu1);  
               }else{}
             }
-    
+            }
+            
             
         }
     }
