@@ -10,27 +10,31 @@ public class ejercicio44 {
         int r=0;
         String n;
         int suma;
-        
-        
-        for(int i=1; i<=3; i++){
-            System.out.print("¿cuantos focos (verde, blanco y rojo) hay?");
-            n = lt.nextLine();
-            if("verde".equals(n)){
-                System.out.print("cantidad de focos verdes");
-                v=lt.nextInt();
-            }else if("blanco".equals(n)){
-                System.out.print("cantidad de focos blancos");
-                b=lt.nextInt();
-            }else if("rojo".equals(n)){
-                System.out.print("cantidad de focos rojos");
-                r=lt.nextInt();
-                suma=v+b+r;
-            }
-            
+        int x;
 
+            for(int i=0; i<=4; i++){
+                System.out.print("Introducir el color del foco: rojo, blanco y verde en orden: ");
+                n = lt.nextLine();
+                if("verde".equals(n)){
+                  System.out.print("cantidad de focos verdes: ");
+                  v=lt.nextInt();
+                  
+                }else if("blanco".equals(n)){
+                  System.out.print("cantidad de focos blancos: ");
+                  b=lt.nextInt();
+                  
+                }else if("rojo".equals(n)){
+                  System.out.print("cantidad de focos rojos: ");
+                  r=lt.nextInt();
+                
+                }
+                suma=r+b+v;
+                System.out.println("La suma total es " + suma);
+            }
+        
+            
         
         }
-        System.out.print("La cantidad total"+ suma);
+        
 
-    }
 }
