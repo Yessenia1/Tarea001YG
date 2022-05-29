@@ -6,7 +6,6 @@ public class ejercicio43 {
     public static void main(String[] args) {
         int x;
         float n;
-        int a;
         int contador=0;
         int contador1=0;
         int contador2=0;
