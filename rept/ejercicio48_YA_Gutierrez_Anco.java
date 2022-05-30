@@ -1,7 +1,7 @@
 package rept;
 import java.util.Scanner;
 
-public class ejercicio48 {
+public class ejercicio48_YA_Gutierrez_Anco {
     static Scanner lt=new Scanner(System.in);
     //4.8.	Un cliente de un banco deposita equis cantidad de soles cada mes en una cuenta de ahorros. 
     //La cuenta percibe un interés fijo durante un año de 10 % anual. 

@@ -1,7 +1,7 @@
 package rept;
 import java.util.Scanner;
 
-public class ejercicio49 {
+public class ejercicio49_YA_Gutierrez_Anco {
     static Scanner lt=new Scanner(System.in);
     //Los directivos de equis escuela requieren determinar 
     //cuál es la edad promedio de cada uno de los M salones y cuál es la edad promedio de toda la escuela. 

@@ -2,7 +2,7 @@ package rept;
 import java.util.Scanner;
 
 
-    public class ejercicio46{
+    public class ejercicio46_YA_Gutierrez_Anco{
       static Scanner lt = new Scanner(System.in);
         /*4.2.	Bembos ofrece hamburguesas sencillas (S), dobles (D) y triples (T), las cuales tienen un costo de S/ 10, S/ 12 y S/ 14 respectivamente. 
         La empresa acepta tarjetas de crédito con un cargo de 5 % sobre la compra. 

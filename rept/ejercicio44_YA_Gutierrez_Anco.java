@@ -1,7 +1,7 @@
 package rept;
 import java.util.Scanner;
 
-public class ejercicio44 {
+public class ejercicio44_YA_Gutierrez_Anco {
     static Scanner lt=new Scanner(System.in);
 
     public static void main(String[] args) {

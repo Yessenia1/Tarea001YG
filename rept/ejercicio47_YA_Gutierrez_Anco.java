@@ -1,7 +1,7 @@
 package rept;
 import java.util.Scanner;
 
-public class ejercicio47 {
+public class ejercicio47_YA_Gutierrez_Anco {
     static Scanner lt=new Scanner(System.in);
     //4.7.	Realice el algoritmo para determinar cuánto pagará una persona que adquiere N artículos,
     // los cuales están de promoción. Considere que, 
