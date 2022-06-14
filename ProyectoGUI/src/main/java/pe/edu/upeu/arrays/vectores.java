@@ -1,6 +1,6 @@
 package pe.edu.upeu.arrays;
 
-import java.util.Scanner;;
+import java.util.Scanner;
 
 import pe.edu.upeu.modelo.persona;
 
