@@ -4,28 +4,31 @@ import java.util.Scanner;
 
 import pe.edu.upeu.modelo.persona;
 
+/**
+ * VectoresEjemplo
+ */
 public class vectores {
 
-    public void vec() {
-        int edades[]=new int[10];
+    public void vectoresX() {
+        int edades[]=new int[10];//forma uno
         edades=new int[12];
         edades[0]=20;
+        edades[1]=18;
         edades[11]=30;
-        System.out.println("edades");
-        System.out.println("indice 0:"+edades[0]);
-        System.out.println("indice 11:"+edades[11]);
-        //forma 2
+        System.out.println("Edades:");
+        System.out.println("Indice 0:"+edades[0]);
+        System.out.println("Indice 11:"+edades[11]);
+        //forma dos
         System.out.println("Forma dos");
         int edadesX[]={20,18,30, 40, 16};
         System.out.println(edadesX.length);
         System.out.println("Indice 0:"+edadesX[0]);
-        System.out.println("Indice 4:"+edadesX[4]); 
-        
+        System.out.println("Indice 4:"+edadesX[4]);        
     }
 
     public void vectorObjetos() {
         persona[] p=new persona[27];
-        p[0]=new persona("202210709", "David", false);
+        p[0]=new persona("43631917", "David", false);
         p[26]=new persona("43631913", "Dario", false);
         System.out.println(p[26].nombre);
 
@@ -47,15 +50,13 @@ public class vectores {
         for (int i = 0; i < pp.length; i++) {
             System.out.println(pp[i].codigo+"\t"+pp[i].nombre+"\t"+pp[i].asistencia);
         }
-
-        
     }
 
     public static void main(String[] args) {
         vectores objx=new vectores();
-        //objx.vec();
+        //objx.vectoresX();
         objx.vectorObjetos();
-
-       //new vectores().vec();
+       //new VectoresEjemplo().vectoresX();
     }
+
 }

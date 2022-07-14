@@ -3,10 +3,7 @@ package pe.edu.upeu.modelo;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
-
+@Setter @Getter
 public class clienteTO {
-
-    String DNI;
-    String nombre;
+   public String dni, nombre;
 }

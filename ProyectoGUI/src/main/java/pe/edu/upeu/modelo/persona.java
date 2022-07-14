@@ -11,3 +11,5 @@ public class persona {
         this.asistencia=asistencia;
     }
 }
+
+

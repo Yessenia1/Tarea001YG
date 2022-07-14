@@ -1,14 +1,34 @@
 package pe.edu.upeu.modelo;
 
+/**
+ * ModeloTO
+ */
 public class modeloTO {
-    public String idmodelo;
-    public String nombremodelo;
-    public void setIdmodelo(String idmodelo) {
-        this.idmodelo = idmodelo;
+    public String idModelo;
+    public String nombreModelo;
+    
+    public modeloTO(String idModelo, String nombreModelo) {
+        this.idModelo = idModelo;
+        this.nombreModelo = nombreModelo;
     }
-    public void setNombremodelo(String nombremodelo) {
-        this.nombremodelo = nombremodelo;
+
+    public String getIdModelo() {
+        return idModelo;
+    }
+
+    public void setIdModelo(String idModelo) {
+        this.idModelo = idModelo;
+    }
+
+    public String getNombreModelo() {
+        return nombreModelo;
+    }
+
+    public void setNombreModelo(String nombreModelo) {
+        this.nombreModelo = nombreModelo;
     }
 
 
+    
+    
 }
