@@ -1,3 +1,6 @@
 C1	Chompas
 C2	Abrigos
 C3	Guantes
+C4	cono
+C5	vasito
+C6	vaso

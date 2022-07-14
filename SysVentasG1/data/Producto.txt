@@ -1,2 +1,15 @@
 P1	Chompa T-S Color Plomo	Unidad	C1	M1	30.0	8.0	90.0	3.0
 P2	Chalinas	Unidad	C3	M1	15.0	5.0	2.0	6.0
+P3	Helado	3	C4	M2	3.0	5.0	8.0	12.0
+P4	Helado	3	C4	M3	3.0	5.0	8.0	12.0
+P5	Helado	3	C4	M4	3.0	5.0	-12.0	12.0
+P6	Helado	3	C4	M5	3.0	5.0	8.0	12.0
+P7	Helado	3	C4	M6	3.0	5.0	8.0	12.0
+P8	Helado	8	C4	M7	3.0	5.0	8.0	12.0
+P9	Helado	3	C4	M8	3.0	5.0	8.0	12.0
+P10	Helado	3	C4	M9	3.0	5.0	8.0	12.0
+P11	Helado	1	C5	M2	4.0	8.0	1.0	12.0
+P12	Cremolada	3	C5	M2	2.0	7.0	4.0	15.0
+P13	Cremolada	4	C5	M3	2.0	7.0	9.0	15.0
+P14	Helado frito	5	C5	M2	6.0	6.0	10.0	10.0
+P15	Helado frito	5	C5	M3	6.0	6.0	7.0	10.0
