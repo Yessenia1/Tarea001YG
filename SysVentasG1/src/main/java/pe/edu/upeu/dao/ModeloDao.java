@@ -16,11 +16,11 @@ public class ModeloDao extends AppCrud{
    public void crearModelo() {
     leerA=new LeerArchivo(TABLA_MODELO);
     mTo=new ModeloTO();
-    System.out.println("*************Crear Modelo****************");
+    System.out.println("*************Crear Sabor****************");
     leerA=new LeerArchivo(TABLA_MODELO);
     String idMod=generarId(leerA, 0, "M", 1);
     mTo.setIdModelo(idMod);
-    mTo.setNombreModelo(leerT.leer("", "Ingrese nombre Modelo"));
+    mTo.setNombreModelo(leerT.leer("", "Ingrese nombre Sabor"));
     agregarContenido(leerA, mTo);
    }    
 }

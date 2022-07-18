@@ -1,9 +1,5 @@
-M1	Cuello V
-M2	fresa
-M3	mango
-M4	vainilla
-M5	platano
-M6	naranja
-M7	coco
-M8	menta
-M9	chocolate
+M1	Fresa
+M2	Mango
+M3	Vainilla
+M4	Maracuya
+M5	Chocolate

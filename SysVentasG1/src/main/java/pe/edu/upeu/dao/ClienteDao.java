@@ -24,7 +24,7 @@ public class ClienteDao extends AppCrud{
         cTo.setNombre(leerT.leer("", "Ingrese nombre de cliente"));
         agregarContenido(leerA, cTo);     
     }else{
-        System.err.println("El Dni ya esta registrado! intente con otro dni!");
+        System.err.println("El Dni ya esta registrado! intente con otro dni! xd");
         crearCliente();
 
     }

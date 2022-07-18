@@ -1,24 +1,24 @@
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/VentaDetalleTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/UsuarioTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/util/LeerArchivo.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/ProductoTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/util/UtilsX.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/ProductoDao.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/app/MenuOpciones.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/ClienteTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/gui/MainGUI.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/arrays/MatricesEjemplos.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/ModeloDao.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/crud/AppCrud.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/ModeloTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/app/App.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/arrays/VectoresEjemplo.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/CategoriaTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/util/LeerTeclado.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/UsuarioDao.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/arrays/Transformadas.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/VentaTO.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/ClienteDao.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/modelo/Persona.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/CategoriDao.java
-/home/davidmp/FundamentosP2022-G1/SysVentasG1/src/main/java/pe/edu/upeu/dao/VentasDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\ClienteDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\arrays\MatricesEjemplos.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\UsuarioDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\ClienteTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\gui\MainGUI.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\UsuarioTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\ModeloTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\VentaDetalleTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\util\LeerArchivo.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\CategoriaTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\arrays\Transformadas.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\Persona.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\ModeloDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\ProductoTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\modelo\VentaTO.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\ProductoDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\app\App.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\crud\AppCrud.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\app\MenuOpciones.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\CategoriDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\util\UtilsX.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\dao\VentasDao.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\arrays\VectoresEjemplo.java
+D:\programación\Nueva carpeta\Tarea001YG\SysVentasG1\src\main\java\pe\edu\upeu\util\LeerTeclado.java

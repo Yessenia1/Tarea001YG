@@ -182,7 +182,7 @@ public class VentasDao extends AppCrud{
 
     public void reporteVentasRangoFecha() {
         util.clearConsole();
-        System.out.println("===================Reporte de Ventas==================");
+        System.out.println("=======================Reporte de Ventas======================");
         String fechaInit=leerT.leer("", "Ingrese F. Inicio (dd-MM-yyyy)");
         String fechaFinal=leerT.leer("", "Ingrese F. Final (dd-MM-yyyy)");
         leerA=new LeerArchivo(TABLA_VENTA);
@@ -227,6 +227,7 @@ public class VentasDao extends AppCrud{
             }
             //Imprimir Ventas     
             Ansi color;
+            System.out.println("Heladeria Planet");
             AnsiConsole.systemInstall();
             color=new Ansi();
             System.out.println(color.bgBrightYellow().fgBlack()
@@ -251,12 +252,12 @@ public class VentasDao extends AppCrud{
             util.pintarLine('H', 40);            
             System.out.println(color.render(
             
-            "| @|red Sub. Total:|@ | @|blue S/"+ subtotalX+" |@ | @|red IGV: |@ @|blue S/."+igvX+
+            "| @|red Sub. Total:|@ | @|blue S/"+ subtotalX+" |@ | @|red IGV: |@ @|green S/."+igvX+
             "|@ | @|red Imp. Total: |@ @|blue S/."+importeTX+"|@"
             
             )
             );
-            util.pintarLine('H', 40);            
+            util.pintarLine('H', 45);            
 
 
         } catch (Exception e) {

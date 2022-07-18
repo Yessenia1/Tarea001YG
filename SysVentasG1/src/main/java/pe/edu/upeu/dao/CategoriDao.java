@@ -22,5 +22,10 @@ public class CategoriDao extends AppCrud {
     cTo.setIdCat(idCat);
     cTo.setNombreCat(leerT.leer("", "Ingrese nombre categoria"));
     agregarContenido(leerA, cTo);
-   }    
+   } 
+   public void eliminarcategoria() {
+    leerA=new LeerArchivo(TABLA_CATEGORIA);
+    String id=leerT.leer("", "ingrese el id de categoria a eliminar");
+    eliminarRegistros(leerA, 0, id);
+   }   
 }
