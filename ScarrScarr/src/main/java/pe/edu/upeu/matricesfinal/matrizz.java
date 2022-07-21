@@ -224,7 +224,8 @@ public void transformada12() {
     
         public static void main(String[] args) {
             //new Transformadas().transformada01();
-            new matrizz().transformada21();
+            //new matrizz().transformada21();
+            
      }
     
 }
